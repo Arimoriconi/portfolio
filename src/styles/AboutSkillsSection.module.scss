@@ -1,0 +1,58 @@
+.aboutSkillsSection {
+  padding: 4rem 7.8rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.aboutMe {
+  flex: 6;
+  padding: 1rem;
+}
+
+.skills {
+  flex: 6;
+  padding: 1rem;
+}
+
+.aboutMe h2, .skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #4831d4;
+}
+
+.aboutMe p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.skills ul {
+  // list-style: none;
+  // padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100px; /* Ajustar este valor según sea necesario */
+}
+
+.progressBarWrapper {
+  width: 75px; /* Ajustar este valor según sea necesario */
+  // height: 60px; /* Ajustar este valor según sea necesario */
+}
+
+.skillItem span {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #3d155f;
+}
